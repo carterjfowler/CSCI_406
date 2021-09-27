@@ -1,0 +1,6 @@
+
+public class edge {
+	node startingVertex;
+	node endingVertex;
+	int weight;
+}

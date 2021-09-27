@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+public class node {
+	point location;
+//	dfs discovery;				//no longer necessary, was used for dfs and bfs
+	node parent;
+	ArrayList<node> edges;
+	color edgeColor;			//to use for maze logic
+	int depth;					//depth variable for djikstra's algorithm
+	int edgeWeight;					//storing edge weight for all edges coming off (from) this node
+	
+	public node(point _location, node _parent, ArrayList<point> _edges, color _edgeColor) {
+		location = _location;
+//		discovery = _discovery;
+		parent = _parent;
+		edges = _edges;
+		edgeColor = _edgeColor;
+		depth = 2147483647; //initialize to max int it can store, will be reset earlier
+		edgeWeight = 0;			//will be reset to the weight stored in location when initialized
+	}
+}

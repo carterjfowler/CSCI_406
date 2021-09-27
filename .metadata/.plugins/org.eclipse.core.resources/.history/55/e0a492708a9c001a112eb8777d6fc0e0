@@ -1,0 +1,11 @@
+import java.util.ArrayList;
+
+public class maze {
+	int rows;
+	int cols;
+	ArrayList<ArrayList<node>> graph;
+	
+	public maze (int _rows, int _cols, ArrayList<ArrayList<node>> _graph) {
+		
+	}
+}

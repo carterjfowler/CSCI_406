@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+
+public class node {
+	point location;
+	dfs discovery;
+	node parent;
+	ArrayList<point> edges;
+	color edgeColor;
+	
+	public node(point _location, dfs _discovery, node _parent, ArrayList<point> _edges) {
+		location = _location;
+		discovery = _discovery;
+		parent = _parent;
+		edges = _edges;
+		edgeColor = _edgeColor;
+	}
+}

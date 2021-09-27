@@ -1,0 +1,4 @@
+
+public enum dfs {
+	white, blue, grey, black, red
+}

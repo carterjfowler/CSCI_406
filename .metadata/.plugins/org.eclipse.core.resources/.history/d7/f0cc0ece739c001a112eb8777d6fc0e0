@@ -1,0 +1,12 @@
+
+public class point {
+	int row;
+	int col;
+	color colorType;
+	
+	public point(int _row, int _col, color _colorType) {
+		row = _row;
+		col = _col;
+		color = _color;
+	}
+}

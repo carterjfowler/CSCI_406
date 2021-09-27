@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+
+public class node {
+	point location;
+	ArrayList<point> blackEdges;
+	ArrayList<point> redEdges;
+	
+	public node(point _location, ArrayList<point> _blackEdges, ArrayList<point> _redEdges) {
+		location = _location;
+		blackEdges = _blackEdges;
+		redEdges = _redEdges;
+	}
+}

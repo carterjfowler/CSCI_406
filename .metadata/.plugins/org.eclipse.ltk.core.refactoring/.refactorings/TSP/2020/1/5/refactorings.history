@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;nearest_neighbor&apos; to &apos;tsp&apos;&#x0A;- Original project: &apos;TSP&apos;&#x0A;- Original element: &apos;nearest_neighbor&apos;&#x0A;- Renamed element: &apos;tsp&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;nearest_neighbor&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{nearest_neighbor.java[nearest_neighbor" matchStrategy="1" name="tsp" qualified="false" references="true" similarDeclarations="false" stamp="1580365665763" textual="false" version="1.0"/>
+</session>
